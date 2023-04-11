@@ -1,28 +1,28 @@
-# create-svelte
+# SvelteKit TailwindCSS SASS TypeScript Template
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+This is a template I created with a stack that I use frequently, I decided not to include a database or cms
+with it because that varies the most. If you aren't me, feel free to use this template, if there are any issues
+you can submit an issue on GitHub and I'll see what I can do. Before submitting an issue, please try it with an
+LTS version of node and npm.
 
-## Creating a project
+## Setup
 
-If you're seeing this, you've probably already done this step. Congrats!
-
+Before you start, you need to install all the node packages that come with the template.
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+npm install
 ```
 
-## Developing
+## Startup
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
+To start the dev server run the following
 ```bash
 npm run dev
 
 # or start the server and open the app in a new browser tab
 npm run dev -- --open
+
+# or start with vite
+npx vite --port=4000
 ```
 
 ## Building
@@ -36,3 +36,5 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+
+### Happy Coding
